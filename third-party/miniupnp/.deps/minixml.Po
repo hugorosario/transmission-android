@@ -1,0 +1,79 @@
+minixml.o: minixml.c \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/string.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/cdefs.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/android/api-level.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/android/versioning.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/include/stddef.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/xlocale.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/strcasecmp.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/types.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/include/stdint.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/stdint.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/wchar_limits.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/types.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/types.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/int-ll64.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/bitsperlong.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/bitsperlong.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/posix_types.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/stddef.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/compiler_types.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/compiler.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/posix_types.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/posix_types.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/pthread_types.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/strings.h \
+  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/android/legacy_strings_inlines.h \
+  minixml.h
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/string.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/cdefs.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/android/api-level.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/android/versioning.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/include/stddef.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/xlocale.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/strcasecmp.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/types.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/include/stdint.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/stdint.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/wchar_limits.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/types.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/types.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/int-ll64.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/bitsperlong.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/posix_types.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/stddef.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/compiler_types.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/compiler.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/posix_types.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/posix_types.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/pthread_types.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/strings.h:
+
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/android/legacy_strings_inlines.h:
+
+minixml.h:

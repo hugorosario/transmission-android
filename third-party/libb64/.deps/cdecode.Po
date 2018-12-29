@@ -1,0 +1,3 @@
+cdecode.o: cdecode.c b64/cdecode.h
+
+b64/cdecode.h:

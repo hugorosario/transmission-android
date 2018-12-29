@@ -1,0 +1,1482 @@
+--------------------
+./configure --prefix=/home/dev/tm/toolchain/sysroot/usr
+Fri Dec 28 13:42:56 PST 2018
+=== ztest2045.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/toolchain/bin/x86-linux-androideabi-clang -c ztest2045.c
+./configure: 182: ./configure: /home/dev/tm/toolchain/bin/x86-linux-androideabi-clang: not found
+... using /home/dev/tm/toolchain/bin/x86-linux-androideabi-clang
+
+Checking for obsessive-compulsive compiler options...
+=== ztest2045.c ===
+int foo() { return 0; }
+===
+/home/dev/tm/toolchain/bin/x86-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static ztest2045.c
+./configure: 370: ./configure: /home/dev/tm/toolchain/bin/x86-linux-androideabi-clang: not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=/home/dev/tm/toolchain/sysroot/usr
+Fri Dec 28 13:44:07 PST 2018
+=== ztest2082.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/toolchain/bin/x86-linux-androideabi-clang -c ztest2082.c
+./configure: 182: ./configure: /home/dev/tm/toolchain/bin/x86-linux-androideabi-clang: not found
+... using /home/dev/tm/toolchain/bin/x86-linux-androideabi-clang
+
+Checking for obsessive-compulsive compiler options...
+=== ztest2082.c ===
+int foo() { return 0; }
+===
+/home/dev/tm/toolchain/bin/x86-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static ztest2082.c
+./configure: 370: ./configure: /home/dev/tm/toolchain/bin/x86-linux-androideabi-clang: not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=/home/dev/tm/toolchain/sysroot/usr
+Fri Dec 28 13:44:12 PST 2018
+=== ztest2117.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/toolchain/bin/x86-linux-androideabi-clang -c ztest2117.c
+./configure: 182: ./configure: /home/dev/tm/toolchain/bin/x86-linux-androideabi-clang: not found
+... using /home/dev/tm/toolchain/bin/x86-linux-androideabi-clang
+
+Checking for obsessive-compulsive compiler options...
+=== ztest2117.c ===
+int foo() { return 0; }
+===
+/home/dev/tm/toolchain/bin/x86-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static ztest2117.c
+./configure: 370: ./configure: /home/dev/tm/toolchain/bin/x86-linux-androideabi-clang: not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=/home/dev/tm/toolchain/sysroot/usr
+Fri Dec 28 13:45:38 PST 2018
+=== ztest2158.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/toolchain/bin/x86-linux-androideabi-clang -c ztest2158.c
+./configure: 182: ./configure: /home/dev/tm/toolchain/bin/x86-linux-androideabi-clang: not found
+... using /home/dev/tm/toolchain/bin/x86-linux-androideabi-clang
+
+Checking for obsessive-compulsive compiler options...
+=== ztest2158.c ===
+int foo() { return 0; }
+===
+/home/dev/tm/toolchain/bin/x86-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static ztest2158.c
+./configure: 370: ./configure: /home/dev/tm/toolchain/bin/x86-linux-androideabi-clang: not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=/home/dev/tm/toolchain/sysroot/usr
+Fri Dec 28 13:47:53 PST 2018
+=== ztest2198.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/toolchain/bin/x86-linux-androideabi-gcc -c ztest2198.c
+./configure: 182: ./configure: /home/dev/tm/toolchain/bin/x86-linux-androideabi-gcc: not found
+... using /home/dev/tm/toolchain/bin/x86-linux-androideabi-gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest2198.c ===
+int foo() { return 0; }
+===
+/home/dev/tm/toolchain/bin/x86-linux-androideabi-gcc -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static ztest2198.c
+./configure: 370: ./configure: /home/dev/tm/toolchain/bin/x86-linux-androideabi-gcc: not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=/home/dev/tm/toolchain/sysroot/usr
+Fri Dec 28 13:58:56 PST 2018
+=== ztest2273.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/toolchain/bin/i686-linux-android-clang -c ztest2273.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest2273.c ===
+int foo() { return 0; }
+===
+/home/dev/tm/toolchain/bin/i686-linux-android-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static ztest2273.c
+
+Checking for shared library support...
+=== ztest2273.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/toolchain/bin/i686-linux-android-clang -w -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -fPIC ztest2273.c
+/home/dev/tm/toolchain/bin/i686-linux-android-clang -shared -Wl,-soname,libz.so.1,--version-script,zlib.map --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -fPIC -o ztest2273.so ztest2273.o
+/home/dev/tm/toolchain/sysroot/usr/lib/crtbegin_static.o:crtbegin.c:function _start_main: error: undefined reference to 'main'
+clang60: error: linker command failed with exit code 1 (use -v to see invocation)
+(exit code 1)
+No shared library support; try without defining CC and CFLAGS
+Building static library libz.a version 1.2.11 with /home/dev/tm/toolchain/bin/i686-linux-android-clang.
+
+=== ztest2273.c ===
+#include <stdio.h>
+#include <stdlib.h>
+size_t dummy = 0;
+===
+/home/dev/tm/toolchain/bin/i686-linux-android-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static ztest2273.c
+Checking for size_t... Yes.
+
+
+=== ztest2273.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+/home/dev/tm/toolchain/bin/i686-linux-android-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest2273.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest2273.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+/home/dev/tm/toolchain/bin/i686-linux-android-clang --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -o ztest2273 ztest2273.c
+Checking for strerror... Yes.
+
+=== ztest2273.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+/home/dev/tm/toolchain/bin/i686-linux-android-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest2273.c
+Checking for unistd.h... Yes.
+
+=== ztest2273.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+/home/dev/tm/toolchain/bin/i686-linux-android-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest2273.c
+Checking for stdarg.h... Yes.
+
+=== ztest2273.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+/home/dev/tm/toolchain/bin/i686-linux-android-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest2273.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest2273.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/home/dev/tm/toolchain/bin/i686-linux-android-clang --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -o ztest2273 ztest2273.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest2273.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/home/dev/tm/toolchain/bin/i686-linux-android-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest2273.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest2273.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+/home/dev/tm/toolchain/bin/i686-linux-android-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest2273.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static all64
+AR = /home/dev/tm/toolchain/bin/i686-linux-android-ar
+ARFLAGS = rc
+CC = /home/dev/tm/toolchain/bin/i686-linux-android-clang
+CFLAGS = --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = /home/dev/tm/toolchain/bin/i686-linux-android-cpp
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS = --sysroot=/home/dev/tm/toolchain/sysroot -L/home/dev/tm/toolchain/sysroot/usr/lib -L/home/dev/tm/toolchain/lib -fPIC -pie -static
+LDSHARED = /home/dev/tm/toolchain/bin/i686-linux-android-clang
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = /home/dev/tm/toolchain/bin/i686-linux-android-ranlib
+SFLAGS = --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB =
+SHAREDLIBM =
+SHAREDLIBV =
+STATICLIB = libz.a
+TEST = all teststatic test64
+VER = 1.2.11
+Z_U4 =
+SRCDIR =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /home/dev/tm/toolchain/sysroot/usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --prefix=/home/dev/tm/toolchain/sysroot/usr
+Fri Dec 28 14:41:53 PST 2018
+=== ztest66753.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c ztest66753.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest66753.c ===
+int foo() { return 0; }
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static ztest66753.c
+
+Checking for shared library support...
+=== ztest66753.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -w -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -fPIC ztest66753.c
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -shared -Wl,-soname,libz.so.1,--version-script,zlib.map --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -fPIC -o ztest66753.so ztest66753.o
+/home/dev/tm/toolchain/sysroot/usr/lib/../lib/crtbegin_static.o:crtbegin.c:function _start_main: error: undefined reference to 'main'
+clang60: error: linker command failed with exit code 1 (use -v to see invocation)
+(exit code 1)
+No shared library support; try without defining CC and CFLAGS
+Building static library libz.a version 1.2.11 with /home/dev/tm/toolchain/bin/arm-linux-androideabi-clang.
+
+=== ztest66753.c ===
+#include <stdio.h>
+#include <stdlib.h>
+size_t dummy = 0;
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static ztest66753.c
+Checking for size_t... Yes.
+
+
+=== ztest66753.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest66753.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest66753.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -o ztest66753 ztest66753.c
+Checking for strerror... Yes.
+
+=== ztest66753.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest66753.c
+Checking for unistd.h... Yes.
+
+=== ztest66753.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest66753.c
+Checking for stdarg.h... Yes.
+
+=== ztest66753.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest66753.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest66753.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -o ztest66753 ztest66753.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest66753.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest66753.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest66753.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest66753.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static all64
+AR = /home/dev/tm/toolchain/bin/arm-linux-androideabi-ar
+ARFLAGS = rc
+CC = /home/dev/tm/toolchain/bin/arm-linux-androideabi-clang
+CFLAGS = --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = /home/dev/tm/toolchain/bin/arm-linux-androideabi-cpp
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS = --sysroot=/home/dev/tm/toolchain/sysroot -L/home/dev/tm/toolchain/sysroot/usr/lib -L/home/dev/tm/toolchain/lib -fPIC -pie -static
+LDSHARED = /home/dev/tm/toolchain/bin/arm-linux-androideabi-clang
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = /home/dev/tm/toolchain/bin/arm-linux-androideabi-ranlib
+SFLAGS = --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB =
+SHAREDLIBM =
+SHAREDLIBV =
+STATICLIB = libz.a
+TEST = all teststatic test64
+VER = 1.2.11
+Z_U4 =
+SRCDIR =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /home/dev/tm/toolchain/sysroot/usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --prefix=/home/dev/tm/toolchain/sysroot/usr
+Fri Dec 28 15:06:33 PST 2018
+=== ztest71491.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c ztest71491.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest71491.c ===
+int foo() { return 0; }
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static ztest71491.c
+
+Checking for shared library support...
+=== ztest71491.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -w -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -fPIC ztest71491.c
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -shared -Wl,-soname,libz.so.1,--version-script,zlib.map --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -fPIC -o ztest71491.so ztest71491.o
+/home/dev/tm/toolchain/sysroot/usr/lib/../lib/crtbegin_static.o:crtbegin.c:function _start_main: error: undefined reference to 'main'
+clang60: error: linker command failed with exit code 1 (use -v to see invocation)
+(exit code 1)
+No shared library support; try without defining CC and CFLAGS
+Building static library libz.a version 1.2.11 with /home/dev/tm/toolchain/bin/arm-linux-androideabi-clang.
+
+=== ztest71491.c ===
+#include <stdio.h>
+#include <stdlib.h>
+size_t dummy = 0;
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static ztest71491.c
+Checking for size_t... Yes.
+
+
+=== ztest71491.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest71491.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest71491.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -o ztest71491 ztest71491.c
+Checking for strerror... Yes.
+
+=== ztest71491.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest71491.c
+Checking for unistd.h... Yes.
+
+=== ztest71491.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest71491.c
+Checking for stdarg.h... Yes.
+
+=== ztest71491.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest71491.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest71491.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -o ztest71491 ztest71491.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest71491.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest71491.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest71491.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest71491.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static all64
+AR = /home/dev/tm/toolchain/bin/arm-linux-androideabi-ar
+ARFLAGS = rc
+CC = /home/dev/tm/toolchain/bin/arm-linux-androideabi-clang
+CFLAGS = --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = /home/dev/tm/toolchain/bin/arm-linux-androideabi-cpp
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS = --sysroot=/home/dev/tm/toolchain/sysroot -L/home/dev/tm/toolchain/sysroot/usr/lib -L/home/dev/tm/toolchain/lib -fPIC -pie -static
+LDSHARED = /home/dev/tm/toolchain/bin/arm-linux-androideabi-clang
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = /home/dev/tm/toolchain/bin/arm-linux-androideabi-ranlib
+SFLAGS = --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB =
+SHAREDLIBM =
+SHAREDLIBV =
+STATICLIB = libz.a
+TEST = all teststatic test64
+VER = 1.2.11
+Z_U4 =
+SRCDIR =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /home/dev/tm/toolchain/sysroot/usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --prefix=/home/dev/tm/toolchain/sysroot/usr
+Fri Dec 28 15:07:40 PST 2018
+=== ztest71809.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c ztest71809.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest71809.c ===
+int foo() { return 0; }
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static ztest71809.c
+
+Checking for shared library support...
+=== ztest71809.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -w -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -fPIC ztest71809.c
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -shared -Wl,-soname,libz.so.1,--version-script,zlib.map --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -fPIC -o ztest71809.so ztest71809.o
+/home/dev/tm/toolchain/sysroot/usr/lib/../lib/crtbegin_static.o:crtbegin.c:function _start_main: error: undefined reference to 'main'
+clang60: error: linker command failed with exit code 1 (use -v to see invocation)
+(exit code 1)
+No shared library support; try without defining CC and CFLAGS
+Building static library libz.a version 1.2.11 with /home/dev/tm/toolchain/bin/arm-linux-androideabi-clang.
+
+=== ztest71809.c ===
+#include <stdio.h>
+#include <stdlib.h>
+size_t dummy = 0;
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static ztest71809.c
+Checking for size_t... Yes.
+
+
+=== ztest71809.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest71809.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest71809.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -o ztest71809 ztest71809.c
+Checking for strerror... Yes.
+
+=== ztest71809.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest71809.c
+Checking for unistd.h... Yes.
+
+=== ztest71809.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest71809.c
+Checking for stdarg.h... Yes.
+
+=== ztest71809.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest71809.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest71809.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -o ztest71809 ztest71809.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest71809.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest71809.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest71809.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+/home/dev/tm/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest71809.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static all64
+AR = /home/dev/tm/toolchain/bin/arm-linux-androideabi-ar
+ARFLAGS = rc
+CC = /home/dev/tm/toolchain/bin/arm-linux-androideabi-clang
+CFLAGS = --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = /home/dev/tm/toolchain/bin/arm-linux-androideabi-cpp
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS = --sysroot=/home/dev/tm/toolchain/sysroot -L/home/dev/tm/toolchain/sysroot/usr/lib -L/home/dev/tm/toolchain/lib -fPIC -pie -static
+LDSHARED = /home/dev/tm/toolchain/bin/arm-linux-androideabi-clang
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = /home/dev/tm/toolchain/bin/arm-linux-androideabi-ranlib
+SFLAGS = --sysroot=/home/dev/tm/toolchain/sysroot -I/home/dev/tm/toolchain/sysroot/usr/include -I/home/dev/tm/toolchain/include -O3 -DNDEBUG -fPIC -static -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB =
+SHAREDLIBM =
+SHAREDLIBV =
+STATICLIB = libz.a
+TEST = all teststatic test64
+VER = 1.2.11
+Z_U4 =
+SRCDIR =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /home/dev/tm/toolchain/sysroot/usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --prefix=/home/dev/tm/transmission/builder/toolchain/sysroot/usr
+Fri Dec 28 15:59:22 PST 2018
+=== ztest102551.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/transmission/builder/toolchain/bin/arm-linux-androideabi-clang -c ztest102551.c
+./configure: 182: ./configure: /home/dev/tm/transmission/builder/toolchain/bin/arm-linux-androideabi-clang: not found
+... using /home/dev/tm/transmission/builder/toolchain/bin/arm-linux-androideabi-clang
+
+Checking for obsessive-compulsive compiler options...
+=== ztest102551.c ===
+int foo() { return 0; }
+===
+/home/dev/tm/transmission/builder/toolchain/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain/sysroot -I/home/dev/tm/transmission/builder/toolchain/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain/include -O3 -DNDEBUG -fPIC -static ztest102551.c
+./configure: 370: ./configure: /home/dev/tm/transmission/builder/toolchain/bin/arm-linux-androideabi-clang: not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr
+Fri Dec 28 16:04:09 PST 2018
+=== ztest102632.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c ztest102632.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest102632.c ===
+int foo() { return 0; }
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static ztest102632.c
+
+Checking for shared library support...
+=== ztest102632.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -w -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -fPIC ztest102632.c
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -shared -Wl,-soname,libz.so.1,--version-script,zlib.map --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -fPIC -o ztest102632.so ztest102632.o
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib/../lib/crtbegin_static.o:crtbegin.c:function _start_main: error: undefined reference to 'main'
+clang60: error: linker command failed with exit code 1 (use -v to see invocation)
+(exit code 1)
+No shared library support; try without defining CC and CFLAGS
+Building static library libz.a version 1.2.11 with /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang.
+
+=== ztest102632.c ===
+#include <stdio.h>
+#include <stdlib.h>
+size_t dummy = 0;
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static ztest102632.c
+Checking for size_t... Yes.
+
+
+=== ztest102632.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest102632.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest102632.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -o ztest102632 ztest102632.c
+Checking for strerror... Yes.
+
+=== ztest102632.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest102632.c
+Checking for unistd.h... Yes.
+
+=== ztest102632.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest102632.c
+Checking for stdarg.h... Yes.
+
+=== ztest102632.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest102632.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest102632.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -o ztest102632 ztest102632.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest102632.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest102632.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest102632.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest102632.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static all64
+AR = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-ar
+ARFLAGS = rc
+CC = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang
+CFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-cpp
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib -L/home/dev/tm/transmission/builder/toolchain_arm/lib -fPIC -pie -static
+LDSHARED = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-ranlib
+SFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB =
+SHAREDLIBM =
+SHAREDLIBV =
+STATICLIB = libz.a
+TEST = all teststatic test64
+VER = 1.2.11
+Z_U4 =
+SRCDIR =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --prefix=/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr
+Fri Dec 28 16:17:31 PST 2018
+=== ztest103051.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c ztest103051.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest103051.c ===
+int foo() { return 0; }
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static ztest103051.c
+
+Checking for shared library support...
+=== ztest103051.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -w -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -fPIC ztest103051.c
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -shared -Wl,-soname,libz.so.1,--version-script,zlib.map --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -fPIC -o ztest103051.so ztest103051.o
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib/../lib/crtbegin_static.o:crtbegin.c:function _start_main: error: undefined reference to 'main'
+clang60: error: linker command failed with exit code 1 (use -v to see invocation)
+(exit code 1)
+No shared library support; try without defining CC and CFLAGS
+Building static library libz.a version 1.2.11 with /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang.
+
+=== ztest103051.c ===
+#include <stdio.h>
+#include <stdlib.h>
+size_t dummy = 0;
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static ztest103051.c
+Checking for size_t... Yes.
+
+
+=== ztest103051.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest103051.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest103051.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -o ztest103051 ztest103051.c
+Checking for strerror... Yes.
+
+=== ztest103051.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest103051.c
+Checking for unistd.h... Yes.
+
+=== ztest103051.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest103051.c
+Checking for stdarg.h... Yes.
+
+=== ztest103051.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest103051.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest103051.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -o ztest103051 ztest103051.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest103051.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest103051.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest103051.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest103051.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static all64
+AR = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-ar
+ARFLAGS = rc
+CC = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang
+CFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-cpp
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib -L/home/dev/tm/transmission/builder/toolchain_arm/lib -fPIC -pie -static
+LDSHARED = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-ranlib
+SFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB =
+SHAREDLIBM =
+SHAREDLIBV =
+STATICLIB = libz.a
+TEST = all teststatic test64
+VER = 1.2.11
+Z_U4 =
+SRCDIR =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --prefix=/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr
+Fri Dec 28 16:32:04 PST 2018
+=== ztest103509.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang -c ztest103509.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest103509.c ===
+int foo() { return 0; }
+===
+/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static ztest103509.c
+
+Checking for shared library support...
+=== ztest103509.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang -w -c --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static -fPIC ztest103509.c
+/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang -shared -Wl,-soname,libz.so.1,--version-script,zlib.map --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static -fPIC -o ztest103509.so ztest103509.o
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib/crtbegin_static.o:crtbegin.c:function _start_main: error: undefined reference to 'main'
+clang60: error: linker command failed with exit code 1 (use -v to see invocation)
+(exit code 1)
+No shared library support; try without defining CC and CFLAGS
+Building static library libz.a version 1.2.11 with /home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang.
+
+=== ztest103509.c ===
+#include <stdio.h>
+#include <stdlib.h>
+size_t dummy = 0;
+===
+/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static ztest103509.c
+Checking for size_t... Yes.
+
+
+=== ztest103509.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest103509.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest103509.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -o ztest103509 ztest103509.c
+Checking for strerror... Yes.
+
+=== ztest103509.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest103509.c
+Checking for unistd.h... Yes.
+
+=== ztest103509.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest103509.c
+Checking for stdarg.h... Yes.
+
+=== ztest103509.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest103509.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest103509.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -o ztest103509 ztest103509.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest103509.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest103509.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest103509.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest103509.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static all64
+AR = /home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-ar
+ARFLAGS = rc
+CC = /home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang
+CFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = /home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-cpp
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -L/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib -L/home/dev/tm/transmission/builder/toolchain_x86/lib -fPIC -pie -static
+LDSHARED = /home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = /home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-ranlib
+SFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB =
+SHAREDLIBM =
+SHAREDLIBV =
+STATICLIB = libz.a
+TEST = all teststatic test64
+VER = 1.2.11
+Z_U4 =
+SRCDIR =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --prefix=/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr
+Fri Dec 28 16:48:29 PST 2018
+=== ztest9004.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c ztest9004.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest9004.c ===
+int foo() { return 0; }
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static ztest9004.c
+
+Checking for shared library support...
+=== ztest9004.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -w -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -fPIC ztest9004.c
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -shared -Wl,-soname,libz.so.1,--version-script,zlib.map --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -fPIC -o ztest9004.so ztest9004.o
+/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib/../lib/crtbegin_static.o:crtbegin.c:function _start_main: error: undefined reference to 'main'
+clang60: error: linker command failed with exit code 1 (use -v to see invocation)
+(exit code 1)
+No shared library support; try without defining CC and CFLAGS
+Building static library libz.a version 1.2.11 with /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang.
+
+=== ztest9004.c ===
+#include <stdio.h>
+#include <stdlib.h>
+size_t dummy = 0;
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static ztest9004.c
+Checking for size_t... Yes.
+
+
+=== ztest9004.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest9004.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest9004.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -o ztest9004 ztest9004.c
+Checking for strerror... Yes.
+
+=== ztest9004.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest9004.c
+Checking for unistd.h... Yes.
+
+=== ztest9004.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest9004.c
+Checking for stdarg.h... Yes.
+
+=== ztest9004.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest9004.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest9004.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -o ztest9004 ztest9004.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest9004.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest9004.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest9004.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang -c --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 ztest9004.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static all64
+AR = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-ar
+ARFLAGS = rc
+CC = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang
+CFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-cpp
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib -L/home/dev/tm/transmission/builder/toolchain_arm/lib -fPIC -pie -static
+LDSHARED = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-ranlib
+SFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB =
+SHAREDLIBM =
+SHAREDLIBV =
+STATICLIB = libz.a
+TEST = all teststatic test64
+VER = 1.2.11
+Z_U4 =
+SRCDIR =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
