@@ -4,7 +4,7 @@ ABOUT
   Visit https://transmissionbt.com/ for more information.
   
   This repository is an Android port of the transmission daemon version 2.94.
-  Modifications have been made to the source code of transmissions and dependency 
+  Modifications have been made to the source code of transmission and dependency 
   libraries in order to make this compile without errors.
   
   It provides a nice interactive build script and supports cross compiling to ARM and X86 android.
