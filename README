@@ -36,23 +36,21 @@ RUNNING
   
   In order to execute the daemon, you have to copy it to the app private space and make it executable.
   This is required because Android does not allow launching executables located on the SD card. 
-  Here is some code that extracts the binary from the RAW resource folder of the APK, place in the getFilesDir() location 
+  Here is some code that extracts the binary from the RAW folder into getFilesDir() location 
   and makes it executable:
   
   static boolean initialize(Context context) {
-    try {
-        initialized = false;
-        String appFileDirectory = context.getFilesDir().getParent();
-        binary = new File(appFileDirectory + "/transmissiond");
-        extractResource(context, R.raw.transmission_x86, binary);
-        if (binary.exists()) {
-            initialized = binary.setExecutable(true);
-            binary.setExecutable(true);
-        }
-    } catch (Exception e) {
-        e.printStackTrace();
-    }
-    return initialized;
+      try {
+          initialized = false;
+          String appFileDirectory = context.getFilesDir().getParent();
+          binary = new File(appFileDirectory + "/transmissiond");
+          extractResource(context, R.raw.transmission_x86, binary);
+          if (binary.exists())
+              initialized = binary.setExecutable(true);
+      } catch (Exception e) {
+          e.printStackTrace();
+      }
+      return initialized;
   }
 
   static void extractResource(Context context, int id, File dest){
@@ -71,7 +69,7 @@ RUNNING
       }
   }
   
-  Here is some code that might help launching the daemon:
+  Here is some code that might help launching the daemon (many parameters are missing from this sample code):
   
   public static void startDaemon(final TransmissionListener listener){
     new Thread(new Runnable() {
