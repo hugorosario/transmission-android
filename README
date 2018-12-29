@@ -30,12 +30,14 @@ BUILDING
   If everything went good, you should have a transmission-daemon binary in your toolchain sysroot/usr/bin folder.
 
 RUNNING
-  Since this is an actual binary executable, it needs to be launched from JAVA code.
   
-  In order to execute the daemon, you have to extract/copy it to the app private space and make it executable.
+  Since this is a binary executable and not an APK, it needs to be launched from JAVA code.
+  This means you need to build and APK to start/stop the daemon.
+  
+  In order to execute the daemon, you have to copy it to the app private space and make it executable.
   This is required because Android does not allow launching executables located on the SD card. 
   Here is some code that extracts the binary from the RAW resource folder of the APK, place in the getFilesDir() location 
-  and make it executable:
+  and makes it executable:
   
   static boolean initialize(Context context) {
     try {
