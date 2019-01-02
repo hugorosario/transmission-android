@@ -89,7 +89,7 @@ NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
 build_triplet = x86_64-pc-linux-gnu
-host_triplet = arm-unknown-linux-androideabi
+host_triplet = i686-pc-linux-android
 bin_PROGRAMS = transmission-gtk$(EXEEXT)
 #am__append_1 = transmission.res
 #am__append_2 = transmission.res
@@ -275,26 +275,26 @@ ACLOCAL = ${SHELL} /home/dev/tm/transmission/missing aclocal-1.15
 ALL_LINGUAS = 
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 0
-AR = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-ar
+AR = /home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-ar
 AUTOCONF = ${SHELL} /home/dev/tm/transmission/missing autoconf
 AUTOHEADER = ${SHELL} /home/dev/tm/transmission/missing autoheader
 AUTOMAKE = ${SHELL} /home/dev/tm/transmission/missing automake-1.15
 AWK = gawk
 CATALOGS = 
 CATOBJEXT = 
-CC = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang
+CC = /home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang
 CCDEPMODE = depmode=gcc3
-CFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -std=gnu99 -ggdb3 -Wall -W -Wpointer-arith -Wformat-security -Wundef -Wcast-align -Wstrict-prototypes -Wmissing-declarations -Wmissing-format-attribute -Wredundant-decls -Wnested-externs -Wunused-parameter -Wwrite-strings -Winline -Wfloat-equal -Wextra -Winit-self
-CPP = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-cpp
-CPPFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -DNDEBUG
-CRYPTO_CFLAGS = -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include
-CRYPTO_LIBS = -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib -lssl -lcrypto
+CFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static -std=gnu99 -ggdb3 -Wall -W -Wpointer-arith -Wformat-security -Wundef -Wcast-align -Wstrict-prototypes -Wmissing-declarations -Wmissing-format-attribute -Wredundant-decls -Wnested-externs -Wunused-parameter -Wwrite-strings -Winline -Wfloat-equal -Wextra -Winit-self
+CPP = /home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-cpp
+CPPFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static -DNDEBUG
+CRYPTO_CFLAGS = -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include
+CRYPTO_LIBS = -L/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib -lssl -lcrypto
 CRYPTO_PKG = openssl
 CURL_MINIMUM = 7.15.4
-CXX = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang++
-CXXCPP = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang++ -E
+CXX = /home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang++
+CXXCPP = /home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang++ -E
 CXXDEPMODE = depmode=gcc3
-CXXFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static
+CXXFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static
 CYASSL_CFLAGS = 
 CYASSL_LIBS = 
 CYASSL_MINIMUM = 3.0
@@ -338,18 +338,18 @@ INTLTOOL_V_MERGE =
 INTLTOOL_V_MERGE_OPTIONS = 
 INTLTOOL__v_MERGE_ = 
 INTLTOOL__v_MERGE_0 = 
-LD = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-ld.gold
-LDFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib -L/home/dev/tm/transmission/builder/toolchain_arm/lib -fPIC -pie -static
+LD = /home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-ld.gold
+LDFLAGS = --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -L/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib -L/home/dev/tm/transmission/builder/toolchain_x86/lib -fPIC -pie -static
 LIBAPPINDICATOR_CFLAGS = 
 LIBAPPINDICATOR_LIBS = 
 LIBAPPINDICATOR_MINIMUM = 0.4.90
 LIBB64_CFLAGS = -I$(top_srcdir)/third-party/libb64
 LIBB64_LIBS = $(top_builddir)/third-party/libb64/libb64.a
 LIBB64_LIBS_QT = $${TRANSMISSION_TOP}/third-party/libb64/libb64.a
-LIBCURL_CFLAGS = -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include
-LIBCURL_LIBS = -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib -lcurl
-LIBEVENT_CFLAGS = -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include
-LIBEVENT_LIBS = -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib -levent
+LIBCURL_CFLAGS = -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include
+LIBCURL_LIBS = -L/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib -lcurl
+LIBEVENT_CFLAGS = -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include
+LIBEVENT_LIBS = -L/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib -levent
 LIBEVENT_MINIMUM = 2.0.10
 LIBM = -lm
 LIBNATPMP_CFLAGS = -I$(top_srcdir)/third-party/libnatpmp/
@@ -376,12 +376,12 @@ MKDIR_P = /bin/mkdir -p
 MKINSTALLDIRS = 
 MSGFMT = 
 MSGMERGE = 
-NM = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-nm
+NM = /home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-nm
 NMEDIT = 
 OBJDUMP = objdump
 OBJEXT = o
-OPENSSL_CFLAGS = -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include
-OPENSSL_LIBS = -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib -lssl -lcrypto
+OPENSSL_CFLAGS = -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include
+OPENSSL_LIBS = -L/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib -lssl -lcrypto
 OPENSSL_MINIMUM = 0.9.7
 OTOOL = 
 OTOOL64 = 
@@ -400,10 +400,10 @@ POLARSSL_MINIMUM = 0x01020000
 POSUB = 
 PO_IN_DATADIR_FALSE = 
 PO_IN_DATADIR_TRUE = 
-PTHREAD_CC = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang
+PTHREAD_CC = /home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang
 PTHREAD_CFLAGS = 
 PTHREAD_LIBS = 
-RANLIB = /home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-ranlib
+RANLIB = /home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-ranlib
 SED = /bin/sed
 SET_MAKE = 
 SHELL = /bin/bash
@@ -417,8 +417,8 @@ WINDRES =
 WOLFSSL_CFLAGS = 
 WOLFSSL_LIBS = 
 XGETTEXT = 
-ZLIB_CFLAGS = -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include
-ZLIB_LIBS = -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib -lz
+ZLIB_CFLAGS = -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include
+ZLIB_LIBS = -L/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib -lz
 ZLIB_MINIMUM = 1.2.3
 abs_builddir = /home/dev/tm/transmission/gtk
 abs_srcdir = /home/dev/tm/transmission/gtk
@@ -446,11 +446,11 @@ datarootdir = ${prefix}/share
 docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
 dvidir = ${docdir}
 exec_prefix = ${prefix}
-host = arm-unknown-linux-androideabi
-host_alias = arm-linux-androideabi
-host_cpu = arm
-host_os = linux-androideabi
-host_vendor = unknown
+host = i686-pc-linux-android
+host_alias = i686-linux-android
+host_cpu = i686
+host_os = linux-android
+host_vendor = pc
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
@@ -465,7 +465,7 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr
+prefix = /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr
 program_transform_name = s,x,x,
 psdir = ${docdir}
 runstatedir = ${localstatedir}/run
@@ -497,10 +497,10 @@ AM_CPPFLAGS = \
 
 AM_CFLAGS = \
      \
-    -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include \
+    -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include \
      \
-    -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include \
-    -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include \
+    -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include \
+    -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include \
     
 
 noinst_HEADERS = \
@@ -557,7 +557,7 @@ transmission_gtk_LDADD =  \
 	$(top_builddir)/libtransmission/libtransmission.a \
 	$(top_builddir)/third-party/miniupnp/libminiupnp.a $(top_builddir)/third-party/libnatpmp/libnatpmp.a $(top_builddir)/third-party/dht/libdht.a $(top_builddir)/third-party/libb64/libb64.a \
 	$(top_builddir)/third-party/libutp/libutp.a   \
-	-L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib -levent -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib -lcurl -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib -lssl -lcrypto -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib -lz \
+	-L/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib -levent -L/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib -lcurl -L/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib -lssl -lcrypto -L/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib -lz \
 	 ${LIBM} $(am__append_3)
 DESKTOP_IN_FILES = transmission-gtk.desktop.in
 DESKTOP_FILES = $(DESKTOP_IN_FILES:.desktop.in=.desktop)

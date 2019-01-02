@@ -1,98 +1,100 @@
 event.lo: event.c include/event2/event-config.h evconfig-private.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/types.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/include/stddef.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/include/__stddef_max_align_t.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/include/stdint.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/stdint.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/wchar_limits.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/cdefs.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/android/api-level.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/android/versioning.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/types.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/types.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/int-ll64.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/bitsperlong.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/bitsperlong.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/posix_types.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/stddef.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/compiler_types.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/compiler.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/posix_types.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/posix_types.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/pthread_types.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/time.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/time.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/select.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/signal.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/sigcontext.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/signal_types.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/include/limits.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/limits.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/include/float.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/limits.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/posix_limits.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/signal.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/signal.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/signal-defs.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/siginfo.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/siginfo.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/timespec.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/ucontext.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/user.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/android/legacy_signal_inlines.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/sys/types.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/lib64/clang/6.0.2/include/stddef.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/lib64/clang/6.0.2/include/__stddef_max_align_t.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/lib64/clang/6.0.2/include/stdint.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/stdint.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/wchar_limits.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/sys/cdefs.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/android/api-level.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/android/versioning.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/types.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/types.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/types.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/int-ll64.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/bitsperlong.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/bitsperlong.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/posix_types.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/stddef.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/compiler_types.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/compiler.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/posix_types.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/posix_types_32.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/posix_types.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/pthread_types.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/sys/time.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/time.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/sys/select.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/signal.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/sigcontext.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/signal_types.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/lib64/clang/6.0.2/include/limits.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/limits.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/lib64/clang/6.0.2/include/float.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/limits.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/posix_limits.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/signal.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/signal.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/signal-defs.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/siginfo.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/siginfo.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/timespec.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/sys/ucontext.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/sys/user.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/android/legacy_signal_inlines.h \
   compat/sys/queue.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/socket.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/socket.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/fcntl.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/fcntl.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/socket.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/socket.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/sockios.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/sockios.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/sockios.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/uio.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/sa_family_t.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/stdio.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/include/stdarg.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/seek_constants.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/struct_file.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/stdlib.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/alloca.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/wait.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/wait.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/malloc.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/xlocale.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/android/legacy_stdlib_inlines.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/unistd.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/fcntl.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/getopt.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/ioctl.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/lockf.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/sysconf.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/ctype.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/errno.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/errno.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/errno.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/errno.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/errno-base.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/android/legacy_errno_inlines.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/string.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/strcasecmp.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/strings.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/android/legacy_strings_inlines.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/time.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/sys/socket.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/socket.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/fcntl.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/fcntl.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/socket.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/socket.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/sockios.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/sockios.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/sockios.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/uio.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/sa_family_t.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/stdio.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/lib64/clang/6.0.2/include/stdarg.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/seek_constants.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/struct_file.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/stdlib.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/alloca.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/wait.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/wait.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/malloc.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/xlocale.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/android/legacy_stdlib_inlines.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/unistd.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/fcntl.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/getopt.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/ioctl.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/lockf.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/sysconf.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/ctype.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/errno.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/errno.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/errno.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/errno.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/errno-base.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/android/legacy_errno_inlines.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/string.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/strcasecmp.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/strings.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/android/legacy_strings_inlines.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/time.h \
   include/event2/event.h include/event2/visibility.h \
   include/event2/util.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/netdb.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/netdb.h \
   include/event2/event_struct.h include/event2/keyvalq_struct.h \
   include/event2/event_compat.h event-internal.h minheap-internal.h \
   util-internal.h log-internal.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/eventfd.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/fcntl.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/fadvise.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/falloc.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/fcntl.h \
-  /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/stat.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/sys/eventfd.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/fcntl.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/fadvise.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/falloc.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/fcntl.h \
+  /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/stat.h \
   time-internal.h ipv6-internal.h mm-internal.h evsignal-internal.h \
   defer-internal.h evthread-internal.h include/event2/thread.h \
   evmap-internal.h iocp-internal.h changelist-internal.h ht-internal.h
@@ -101,169 +103,173 @@ include/event2/event-config.h:
 
 evconfig-private.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/types.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/sys/types.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/include/stddef.h:
+/home/dev/tm/transmission/builder/toolchain_x86/lib64/clang/6.0.2/include/stddef.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/include/__stddef_max_align_t.h:
+/home/dev/tm/transmission/builder/toolchain_x86/lib64/clang/6.0.2/include/__stddef_max_align_t.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/include/stdint.h:
+/home/dev/tm/transmission/builder/toolchain_x86/lib64/clang/6.0.2/include/stdint.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/stdint.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/stdint.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/wchar_limits.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/wchar_limits.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/cdefs.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/sys/cdefs.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/android/api-level.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/android/api-level.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/android/versioning.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/android/versioning.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/types.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/types.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/types.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/types.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/int-ll64.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/types.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/bitsperlong.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/int-ll64.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/bitsperlong.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/bitsperlong.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/posix_types.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/bitsperlong.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/stddef.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/posix_types.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/compiler_types.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/stddef.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/compiler.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/compiler_types.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/posix_types.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/compiler.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/posix_types.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/posix_types.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/pthread_types.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/posix_types_32.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/time.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/posix_types.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/time.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/pthread_types.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/select.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/sys/time.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/signal.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/time.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/sigcontext.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/sys/select.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/signal_types.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/signal.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/include/limits.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/sigcontext.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/limits.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/signal_types.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/include/float.h:
+/home/dev/tm/transmission/builder/toolchain_x86/lib64/clang/6.0.2/include/limits.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/limits.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/limits.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/posix_limits.h:
+/home/dev/tm/transmission/builder/toolchain_x86/lib64/clang/6.0.2/include/float.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/signal.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/limits.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/signal.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/posix_limits.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/signal-defs.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/signal.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/siginfo.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/signal.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/siginfo.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/signal-defs.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/timespec.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/siginfo.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/ucontext.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/siginfo.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/user.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/timespec.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/android/legacy_signal_inlines.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/sys/ucontext.h:
+
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/sys/user.h:
+
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/android/legacy_signal_inlines.h:
 
 compat/sys/queue.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/socket.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/sys/socket.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/socket.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/socket.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/fcntl.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/fcntl.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/fcntl.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/fcntl.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/socket.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/socket.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/socket.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/socket.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/sockios.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/sockios.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/sockios.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/sockios.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/sockios.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/sockios.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/uio.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/uio.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/sa_family_t.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/sa_family_t.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/stdio.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/stdio.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/include/stdarg.h:
+/home/dev/tm/transmission/builder/toolchain_x86/lib64/clang/6.0.2/include/stdarg.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/seek_constants.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/seek_constants.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/struct_file.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/struct_file.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/stdlib.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/stdlib.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/alloca.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/alloca.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/wait.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/wait.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/wait.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/wait.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/malloc.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/malloc.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/xlocale.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/xlocale.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/android/legacy_stdlib_inlines.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/android/legacy_stdlib_inlines.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/unistd.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/unistd.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/fcntl.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/fcntl.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/getopt.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/getopt.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/ioctl.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/ioctl.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/lockf.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/lockf.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/sysconf.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/sysconf.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/ctype.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/ctype.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/errno.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/errno.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/errno.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/errno.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm/errno.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm/errno.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/errno.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/errno.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/asm-generic/errno-base.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/asm-generic/errno-base.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/android/legacy_errno_inlines.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/android/legacy_errno_inlines.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/string.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/string.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/bits/strcasecmp.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/bits/strcasecmp.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/strings.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/strings.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/android/legacy_strings_inlines.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/android/legacy_strings_inlines.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/time.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/time.h:
 
 include/event2/event.h:
 
@@ -271,7 +277,7 @@ include/event2/visibility.h:
 
 include/event2/util.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/netdb.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/netdb.h:
 
 include/event2/event_struct.h:
 
@@ -287,17 +293,17 @@ util-internal.h:
 
 log-internal.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/sys/eventfd.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/sys/eventfd.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/fcntl.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/fcntl.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/fadvise.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/fadvise.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/falloc.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/falloc.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/fcntl.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/fcntl.h:
 
-/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include/linux/stat.h:
+/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include/linux/stat.h:
 
 time-internal.h:
 

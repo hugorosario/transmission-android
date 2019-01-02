@@ -1,9 +1,9 @@
 # Directories...
-$prefix=/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr
+$prefix=/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr
 $exec_prefix=${prefix}
 $bindir=${exec_prefix}/bin
 $confdir=${prefix}/etc
-$docdir=/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/doc
+$docdir=/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/doc
 $mandir=${datarootdir}/man
 $libdir=${exec_prefix}/lib
 $srcdir=../..

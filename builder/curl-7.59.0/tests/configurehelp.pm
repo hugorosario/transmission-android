@@ -18,6 +18,6 @@ use vars qw(
     $Cpreprocessor
     );
 
-$Cpreprocessor = '/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-cpp --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -isystem /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -isystem /home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include';
+$Cpreprocessor = '/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-cpp --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -isystem /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -isystem /home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include';
 
 1;

@@ -16,19 +16,19 @@
 # To install in $HOME instead of /usr/local, use:
 #    make install prefix=$HOME
 
-CC=/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang
+CC=/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang
 
-CFLAGS=--sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CFLAGS=--sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
 #CFLAGS=-O -DMAX_WBITS=14 -DMAX_MEM_LEVEL=7
 #CFLAGS=-g -DZLIB_DEBUG
 #CFLAGS=-O3 -Wall -Wwrite-strings -Wpointer-arith -Wconversion \
 #           -Wstrict-prototypes -Wmissing-prototypes
 
-SFLAGS=--sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
-LDFLAGS=--sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib -L/home/dev/tm/transmission/builder/toolchain_arm/lib -fPIC -pie -static
+SFLAGS=--sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+LDFLAGS=--sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -L/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib -L/home/dev/tm/transmission/builder/toolchain_x86/lib -fPIC -pie -static
 TEST_LDFLAGS=-L. libz.a
-LDSHARED=/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang
-CPP=/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-cpp
+LDSHARED=/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang
+CPP=/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-cpp
 
 STATICLIB=libz.a
 SHAREDLIB=
@@ -36,16 +36,16 @@ SHAREDLIBV=
 SHAREDLIBM=
 LIBS=$(STATICLIB) $(SHAREDLIBV)
 
-AR=/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-ar
+AR=/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-ar
 ARFLAGS=rc
-RANLIB=/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-ranlib
+RANLIB=/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-ranlib
 LDCONFIG=ldconfig
 LDSHAREDLIBC=-lc
 TAR=tar
 SHELL=/bin/sh
 EXE=
 
-prefix =/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr
+prefix =/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr
 exec_prefix =${prefix}
 libdir =${exec_prefix}/lib
 sharedlibdir =${libdir}

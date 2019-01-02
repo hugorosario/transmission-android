@@ -21,7 +21,7 @@
 #
 ###########################################################################
 
-prefix=/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr
+prefix=/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr
 exec_prefix=${prefix}
 includedir=${prefix}/include
 cppflag_curl_staticlib=
@@ -72,11 +72,11 @@ while test $# -gt 0; do
         ;;
 
     --ca)
-        echo 
+        echo "/etc/ssl/certs/ca-certificates.crt"
         ;;
 
     --cc)
-        echo "/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang"
+        echo "/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang"
         ;;
 
     --prefix)
@@ -160,7 +160,7 @@ while test $# -gt 0; do
 
     --static-libs)
         if test "Xyes" != "Xno" ; then
-          echo ${exec_prefix}/lib/libcurl.a --sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib -L/home/dev/tm/transmission/builder/toolchain_arm/lib -fPIC -pie -static -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib -lssl -lcrypto -lssl -lcrypto -lz
+          echo ${exec_prefix}/lib/libcurl.a --sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -L/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib -L/home/dev/tm/transmission/builder/toolchain_x86/lib -fPIC -pie -static -L/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib -L/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib -lssl -lcrypto -lssl -lcrypto -lz
         else
           echo "curl was built with static libraries disabled" >&2
           exit 1
@@ -168,7 +168,7 @@ while test $# -gt 0; do
         ;;
 
     --configure)
-        echo " '--prefix=/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr' '--target=arm-linux-androideabi' '--host=arm-linux-androideabi' '--with-zlib=/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr' '--with-ssl=/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr' 'host_alias=arm-linux-androideabi' 'target_alias=arm-linux-androideabi' 'CC=/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang' 'CFLAGS=--sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static' 'LDFLAGS=--sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib -L/home/dev/tm/transmission/builder/toolchain_arm/lib -fPIC -pie -static' 'CPPFLAGS=--sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static' 'CPP=/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-cpp'"
+        echo " '--prefix=/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr' '--target=i686-linux-android' '--host=i686-linux-android' '--with-zlib=/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr' '--with-ssl=/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr' 'host_alias=i686-linux-android' 'target_alias=i686-linux-android' 'CC=/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang' 'CFLAGS=--sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static' 'LDFLAGS=--sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -L/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib -L/home/dev/tm/transmission/builder/toolchain_x86/lib -fPIC -pie -static' 'CPPFLAGS=--sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static' 'CPP=/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-cpp'"
         ;;
 
     *)

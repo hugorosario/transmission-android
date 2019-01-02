@@ -28,7 +28,7 @@ top_srcdir = ..
 top_builddir = ..
 
 
-prefix = /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr
+prefix = /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr
 exec_prefix = ${prefix}
 datadir = ${datarootdir}
 datarootdir = ${prefix}/share

@@ -65,9 +65,9 @@ ECHO="printf %s\\n"
 PATH_SEPARATOR=":"
 
 # The host system.
-host_alias=arm-linux-androideabi
-host=arm-unknown-linux-androideabi
-host_os=linux-androideabi
+host_alias=i686-linux-android
+host=i686-pc-linux-android
+host_os=linux-android
 
 # The build system.
 build_alias=
@@ -90,7 +90,7 @@ EGREP="/bin/grep -E"
 FGREP="/bin/grep -F"
 
 # A BSD- or MS-compatible name lister.
-NM="/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-nm"
+NM="/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-nm"
 
 # Whether we need soft or hard links.
 LN_S="ln -s"
@@ -141,7 +141,7 @@ DLLTOOL="false"
 sharedlib_from_linklib_cmd="printf %s\\n"
 
 # The archiver.
-AR="/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-ar"
+AR="/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-ar"
 
 # Flags to create an archive.
 AR_FLAGS="cru"
@@ -153,7 +153,7 @@ archiver_list_spec="@"
 STRIP="strip"
 
 # Commands used to install an old-style archive.
-RANLIB="/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-ranlib"
+RANLIB="/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-ranlib"
 old_postinstall_cmds="chmod 644 \$oldlib~\$RANLIB \$tool_oldlib"
 old_postuninstall_cmds=""
 
@@ -161,10 +161,10 @@ old_postuninstall_cmds=""
 lock_old_archive_extraction=no
 
 # A C compiler.
-LTCC="/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang"
+LTCC="/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang"
 
 # LTCC compiler flags.
-LTCFLAGS="--sysroot=/home/dev/tm/transmission/builder/toolchain_arm/sysroot -I/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_arm/include -O3 -DNDEBUG -fPIC -static -std=gnu99 -ggdb3 -Wall -W -Wpointer-arith -Wformat-security -Wundef -Wcast-align -Wstrict-prototypes -Wmissing-declarations -Wmissing-format-attribute -Wredundant-decls -Wnested-externs -Wunused-parameter -Wwrite-strings -Winline -Wfloat-equal -Wextra -Winit-self"
+LTCFLAGS="--sysroot=/home/dev/tm/transmission/builder/toolchain_x86/sysroot -I/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/include -I/home/dev/tm/transmission/builder/toolchain_x86/include -O3 -DNDEBUG -fPIC -static -std=gnu99 -ggdb3 -Wall -W -Wpointer-arith -Wformat-security -Wundef -Wcast-align -Wstrict-prototypes -Wmissing-declarations -Wmissing-format-attribute -Wredundant-decls -Wnested-externs -Wunused-parameter -Wwrite-strings -Winline -Wfloat-equal -Wextra -Winit-self"
 
 # Take the output of nm and produce a listing of raw symbols and C names.
 global_symbol_pipe="sed -n -e 's/^.*[	 ]\\([ABCDGIRSTW][ABCDGIRSTW]*\\)[	 ][	 ]*\\([_A-Za-z][_A-Za-z0-9]*\\)\$/\\1 \\2 \\2/p' | sed '/ __gnu_lto/d'"
@@ -281,7 +281,7 @@ finish_eval=""
 hardcode_into_libs=yes
 
 # Compile-time system search path for libraries.
-sys_lib_search_path_spec="/home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2 /home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/lib/linux/arm /home/dev/tm/transmission/builder/toolchain_arm/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a /home/dev/tm/transmission/builder/toolchain_arm/arm-linux-androideabi/lib/armv7-a /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib "
+sys_lib_search_path_spec="/home/dev/tm/transmission/builder/toolchain_x86/lib64/clang/6.0.2 /home/dev/tm/transmission/builder/toolchain_x86/lib64/clang/6.0.2/lib/linux/i386 /home/dev/tm/transmission/builder/toolchain_x86/lib/gcc/i686-linux-android/4.9.x /home/dev/tm/transmission/builder/toolchain_x86/i686-linux-android/lib /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib "
 
 # Detected run-time system search path for libraries.
 sys_lib_dlsearch_path_spec="/lib /usr/lib"
@@ -304,7 +304,7 @@ striplib="strip --strip-unneeded"
 
 
 # The linker used to build libraries.
-LD="/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-ld.gold"
+LD="/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-ld.gold"
 
 # How to create reloadable object files.
 reload_flag=" -r"
@@ -314,7 +314,7 @@ reload_cmds="\$LD\$reload_flag -o \$output\$reload_objs"
 old_archive_cmds="\$AR \$AR_FLAGS \$oldlib\$oldobjs~\$RANLIB \$tool_oldlib"
 
 # A language specific compiler.
-CC="/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang"
+CC="/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang"
 
 # Is the compiler the GNU compiler?
 with_gcc=yes
@@ -11669,7 +11669,7 @@ build_old_libs=`case $build_libtool_libs in yes) echo no;; *) echo yes;; esac`
 # ### BEGIN LIBTOOL TAG CONFIG: CXX
 
 # The linker used to build libraries.
-LD="/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-ld.gold"
+LD="/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-ld.gold"
 
 # How to create reloadable object files.
 reload_flag=" -r"
@@ -11679,7 +11679,7 @@ reload_cmds="\$LD\$reload_flag -o \$output\$reload_objs"
 old_archive_cmds="\$AR \$AR_FLAGS \$oldlib\$oldobjs~\$RANLIB \$tool_oldlib"
 
 # A language specific compiler.
-CC="/home/dev/tm/transmission/builder/toolchain_arm/bin/arm-linux-androideabi-clang++"
+CC="/home/dev/tm/transmission/builder/toolchain_x86/bin/i686-linux-android-clang++"
 
 # Is the compiler the GNU compiler?
 with_gcc=yes
@@ -11800,17 +11800,17 @@ file_list_spec=""
 hardcode_action=immediate
 
 # The directories searched by this compiler when creating a shared library.
-compiler_lib_search_dirs="/home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/lib/linux/arm /home/dev/tm/transmission/builder/toolchain_arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a /home/dev/tm/transmission/builder/toolchain_arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib/../lib /home/dev/tm/transmission/builder/toolchain_arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a /home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib"
+compiler_lib_search_dirs="/home/dev/tm/transmission/builder/toolchain_x86/lib64/clang/6.0.2/lib/linux/i386 /home/dev/tm/transmission/builder/toolchain_x86/bin/../lib/gcc/i686-linux-android/4.9.x /home/dev/tm/transmission/builder/toolchain_x86/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib /home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib"
 
 # Dependencies to place before and after the objects being linked to
 # create a shared library.
-predep_objects="/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib/../lib/crtbegin_static.o"
-postdep_objects="/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib/../lib/crtend_so.o"
+predep_objects="/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib/crtbegin_static.o"
+postdep_objects="/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib/crtend_so.o"
 predeps=""
 postdeps="-lstdc++ -lm -lgcc -lc"
 
 # The library search path used internally by the compiler when linking
 # a shared library.
-compiler_lib_search_path="-L/home/dev/tm/transmission/builder/toolchain_arm/lib64/clang/6.0.2/lib/linux/arm -L/home/dev/tm/transmission/builder/toolchain_arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -L/home/dev/tm/transmission/builder/toolchain_arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib/../lib -L/home/dev/tm/transmission/builder/toolchain_arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -L/home/dev/tm/transmission/builder/toolchain_arm/sysroot/usr/lib"
+compiler_lib_search_path="-L/home/dev/tm/transmission/builder/toolchain_x86/lib64/clang/6.0.2/lib/linux/i386 -L/home/dev/tm/transmission/builder/toolchain_x86/bin/../lib/gcc/i686-linux-android/4.9.x -L/home/dev/tm/transmission/builder/toolchain_x86/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/dev/tm/transmission/builder/toolchain_x86/sysroot/usr/lib"
 
 # ### END LIBTOOL TAG CONFIG: CXX
